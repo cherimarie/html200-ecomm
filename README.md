@@ -31,9 +31,13 @@ Extra Challenge: Incorporate unit tests! Guide: https://gist.github.com/cherimar
 ## Requirements
 
   - Site layout looks good on all sizes of devices. At a minimum, elements are proportionally styled and aside element changes location and layout at different screen sizes. This should be tested using a variety of devices and at least one online browser compatiblity testing tool.
+  - The page is populated with items via Javascript building HTML with attributes from JSON data.
   - Nav and product container elements are styled using flexbox.
   - Appropriately sized images are served up based on size of user's device.
   - User can add and remove items from their cart, which changes cart count number at top of page.
   - Products can be sorted by different attributes using the filter form.
   - This README is updated to include information about the testing steps taken to ensure site quality.
   - Site is live on GH Pages hosting.
+  
+## Grading
+Each weekly assignment will be graded independently. There will not be a final grade for the entire project. 
