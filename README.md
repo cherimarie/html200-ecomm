@@ -14,11 +14,11 @@ Students may use the provided mockups to guide their design to whatever extent t
 
 ## Weekly Assignments
 
-Week4: Write code to loop through items JSON and print out "name" and "price" attributes for each object to the console.
+Week4: Write code to loop through items JSON and print out "name" and "price" attributes for each object to the console. Code HTML for a single item in `<div class="item">`. Use dummy content or some pulled from one of the JSON objects for the name, description, and price. This is a template that we'll later use when we populate the page with all the objects. 
 
-Week5: Code basic CSS for page (excluding item listings, `<div class="item">`). Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). Nav and item-container elements should be styled as flexbox containers.
+Week5: Code basic CSS for page, creating a fluid if not yet responsive layout. Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). Nav and item-container elements should be styled as flexbox containers.
 
-Week6: Serve appropriately sized images for user's device. Code HTML & CSS template for an item- this is the code for just one item. We'll use it over for each item in the list, eventually.
+Week6: Serve appropriately sized images for user's device. 
 
 Week7: Using media queries, change layouts/style based on device size.
 
