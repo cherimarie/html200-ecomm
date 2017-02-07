@@ -53,3 +53,21 @@ function sort(){
   console.log(document.sortForm.filter.value);
   event.preventDefault();
 }
+
+// There are two kinds of for loops we've learned. In this case, we want to loop through the "products" array. This syntax works fine. The other option is below.
+for (var index in products) {
+  // "index" here is a temporary variable that refers to the index of the object we're currently on while looping through the array.
+
+  // We reference the element of the array that we're on using brackets
+  // notation with the counter/index variable. That element is an object,
+  // so we can refer to it's attributes using dot notation.
+  console.log(products[index].name);
+  console.log(products[index].description);
+  console.log(products[index].price);
+}
+
+// This is the syntax for looping through arrays that we learned in class 1.
+// It's a little weirder than the other option, but works just the same.
+// for(var i = 0; i<products.length; i++){
+//   console.log(products[i].name);
+// }
