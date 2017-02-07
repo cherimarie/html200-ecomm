@@ -25,38 +25,44 @@
       </ul>
     </nav>
 
-    <h1>Winter Wear Warehouse</h1>
+    <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf" class="scarfcat">
+    <h1>
+      <span class="logo-w">W</span>inter
+      <span class="logo-w">W</span>ear
+      <span class="logo-w">W</span>arehouse
+    </h1>
   </header>
 
-  <aside>
-    <form name="sortForm" onsubmit="sort();">
-      <label>Filter By:
-        <select name="filter">
-          <option value="">Choose One</option>
-          <option value="price">Price</option>
-          <option value="name">Name</option>
-        </select>
-      </label>
+  <main>
+    <aside>
+      <form name="sortForm" onsubmit="sort();">
+        <label>Filter By:
+          <select name="filter">
+            <option value="">Choose One</option>
+            <option value="price">Price</option>
+            <option value="name">Name</option>
+          </select>
+        </label>
 
-      <input type="submit" value="Sort">
-    </form>
-  </aside>
+        <input type="submit" value="Sort">
+      </form>
+    </aside>
 
-  <section>
-    <h2>Scarves</h2>
+    <section>
+      <h2>Scarves</h2>
 
-    <div class="item-container">
+      <div class="item-container">
 
-      <div class="item">
-        <h3>Reversible Plaid</h3>
-        <img src="images/reversible-plaid.jpg" alt="reversible plaid scarf">
-        <p>Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
-        <p>26.99</p>
+        <div class="item">
+          <h3>Reversible Plaid</h3>
+          <img src="images/reversible-plaid.jpg" alt="reversible plaid scarf">
+          <p>Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
+          <p>26.99</p>
+        </div>
+
       </div>
-
-    </div>
-  </section>
-
+    </section>
+  </main>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,136 @@
+body {
+  font-size: 100%;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #2d2d2d;
+}
+
+/***************** NAV *****************/
+
+nav {
+  padding: 1rem;
+  background-color: #3D7FCF;
+  font-size: 1.25rem;
+  color: white;
+}
+
+nav a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+nav ul > li {
+  text-align: center;
+}
+
+/**************** HERO *****************/
+
+header img {
+  max-width: 6.5%;
+  padding: 1rem .5rem 0 1rem;
+}
+
+h1 {
+  display: inline-block;
+  max-width: 33%;
+  padding-bottom: 1rem;
+  font-family: Anton, Montserrat, "Open Sans", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #3D7FCF;
+}
+
+h1 .logo-w {
+  font-size: 3.5rem;
+}
+
+/**************** ASIDE ****************/
+
+aside {
+  order: 1;
+  width: 15%;
+}
+
+.filter-form {
+  padding: 5rem 0 0 1rem;
+}
+
+label {
+  font-size: 1.25rem;
+  color: #2d2d2d;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin: .5rem auto .3rem;
+  padding: 8px;
+  border: 1px solid #3D7FCF;
+  font-size: .75rem;
+  color: #3D7FCF;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: .25rem;
+  background-color: #3D7FCF;
+  border: 1px solid #3D7FCF;
+  border-radius: 5px;
+  font-size: .75rem;
+  color: white;
+}
+
+/*********** PRODUCTS SECTION ***********/
+
+
+section {
+  order: 2;
+  width: calc(85% - 1.5rem);
+  padding: 0 .75rem;
+}
+
+h2 {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
