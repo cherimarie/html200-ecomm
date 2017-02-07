@@ -21,8 +21,8 @@ Week4:
 
 Week5:
 
-  - Code basic CSS for page (excluding item listings, `<div class="item">`). Nav and item-container elements should be styled as flexbox containers. Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). This will be improved as we go, doesn't have to be perfect yet.
-  - Attach a JS form handler function to be triggered on submission of the filter form. It should print to the console the value of the form element with name "filter".
+  - Code basic CSS for page (excluding item listings, `<div class="item">`). `nav ul` and `.item-container` elements should be styled as flexbox containers. Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). This will be improved as we go, doesn't have to be perfect yet. It's fine to change or add to the HTML as necessary for your styling.
+  - Write a JS form handler function to be triggered on form submit. It should print to the console the value of the form element with name "filter".
 
 Week6:
 
