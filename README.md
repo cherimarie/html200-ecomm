@@ -26,10 +26,13 @@ Week5:
 
 Week6:
 
-  - Serve appropriately sized images for user's device.
+  - Serve appropriately sized images for user's device. Use GIMP or another photo-editing program to create multiple sizes of each image, and serve the appropriate one using the `srcset` and `sizes` attributes on the `img` tags. This will require naming all of the images consistently.
   - Code CSS for item listings (`<div class="item">`).
 
-Week7: Write CSS that uses media queries to change layouts/style based on device size.
+Week7:
+
+  - Write CSS that uses media queries to change layouts/style based on device size.
+  - Finish styling the page.
 
 Week8:
   Write JS functions to:
@@ -39,9 +42,10 @@ Week8:
 
 Week9:
 
-  - Write code that causes add/remove function to be triggered on click of "add" and "remove" buttons.
-  - Write code that causes submission of filter form to trigger items to sort by appropriate attribute.
-  - On page load, all items in list are displayed on page.
+  Write JS that:
+  - Causes add/remove function to be triggered on click of "add" and "remove" buttons.
+  - Causes submission of filter form to trigger items to sort by appropriate attribute.
+  - On page load or filter form submission, all items in list are dynamically built into HTML and drawn on the page.
 
 Extra Challenge: Incorporate unit tests! Guide: https://gist.github.com/cherimarie/8f57a32553382c5b1e5428bd79a13626
 
