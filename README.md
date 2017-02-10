@@ -21,15 +21,18 @@ Week4:
 
 Week5:
 
-  - Code basic CSS for page (excluding item listings, `<div class="item">`). Nav and item-container elements should be styled as flexbox containers. Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). This will be improved as we go, doesn't have to be perfect yet.
+  - Code basic CSS for page (excluding item listings, `<div class="item">`). `nav ul` and `.item-container` elements should be styled as flexbox containers. Implement a responsive grid system of your own design, or use a library, or don't use a grid at all. Be sure all important size values are proportional (em, rem, %). This will be improved as we go, doesn't have to be perfect yet. It's fine to change or add to the HTML as necessary for your styling.
   - Write a JS form handler function to be triggered on form submit. It should print to the console the value of the form element with name "filter".
 
 Week6:
 
-  - Serve appropriately sized images for user's device.
+  - Serve appropriately sized images for user's device. Use GIMP or another photo-editing program to create multiple sizes of each image, and serve the appropriate one using the `srcset` and `sizes` attributes on the `img` tags. This will require naming all of the images consistently.
   - Code CSS for item listings (`<div class="item">`).
 
-Week7: Write CSS that uses media queries to change layouts/style based on device size.
+Week7:
+
+  - Write CSS that uses media queries to change layouts/style based on device size.
+  - Finish styling the page.
 
 Week8:
   Write JS functions to:
@@ -39,9 +42,10 @@ Week8:
 
 Week9:
 
-  - Write code that causes add/remove function to be triggered on click of "add" and "remove" buttons.
-  - Write code that causes submission of filter form to trigger items to sort by appropriate attribute.
-  - On page load, all items in list are displayed on page.
+  Write JS that:
+  - Causes add/remove function to be triggered on click of "add" and "remove" buttons.
+  - Causes submission of filter form to trigger items to sort by appropriate attribute.
+  - On page load or filter form submission, all items in list are dynamically built into HTML and drawn on the page.
 
 Extra Challenge: Incorporate unit tests! Guide: https://gist.github.com/cherimarie/8f57a32553382c5b1e5428bd79a13626
 
@@ -50,9 +54,13 @@ Extra Challenge: Code a popup that toggles visibility when user clicks on cart i
 ## Requirements
 
   - Site layout looks good on all sizes of devices. At a minimum, elements are proportionally styled and aside element changes location and layout at different screen sizes. This should be tested using a variety of devices and at least one online browser compatiblity testing tool.
+  - The page is populated with items via Javascript building HTML with attributes from JSON data.
   - Nav and product container elements are styled using flexbox.
   - Appropriately sized images are served up based on size of user's device.
   - User can add and remove items from their cart, which changes cart count number at top of page.
   - Products can be sorted by different attributes using the filter form.
   - This README is updated to include information about the testing steps taken to ensure site quality.
   - Site is live on GH Pages hosting.
+
+## Grading
+Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
