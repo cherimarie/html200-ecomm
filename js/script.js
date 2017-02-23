@@ -48,3 +48,21 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
+
+// Event handler function, triggered on form submit.
+function sort(){
+  console.log(document.sortForm.filter.value);
+  event.preventDefault();
+}
+
+// This is the syntax for looping through arrays that we learned in class 1. We'll use it to loop through the products array.
+for(var i = 0; i<products.length; i++){
+  // "i" here is a temporary variable that refers to the index of the object we're currently on while looping through the array.
+
+  // We reference the element of the array that we're on using brackets
+  // notation with the counter/i variable. That element is an object,
+  // so we can refer to it's attributes using dot notation.
+  console.log(products[i].name);
+  console.log(products[i].description);
+  console.log(products[i].price);
+}
