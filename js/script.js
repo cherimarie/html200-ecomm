@@ -32,7 +32,7 @@ var products = [
   {
     "name": "Multi Color",
     "price": 22.99,
-    "description": "The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it's your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic",
+    "description": "The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic",
     "imageTitle": "multi-color.jpeg"
   },
   {
@@ -47,15 +47,22 @@ var products = [
     "description": "Faribault brings you the Ashby Twill Scarf in Natural. Woven with a 'broken' twill technique, the Ashby Twill Scarf has a slight zigzag texture. Made in USA, this timeless scarf is crafted with luxurious merino wool and finished with heather gray fringe. 100% Merino wool",
     "imageTitle": "twill.jpg"
   }
-];
+]
 
-var name = prompt("name");
-products.name = name;
+// Event handler function, triggered on form submit.
+function sort(){
+  console.log(document.sortForm.filter.value);
+  event.preventDefault();
+}
 
-var price = prompt("price");
-products.price = price;
+// This is the syntax for looping through arrays that we learned in class 1. We'll use it to loop through the products array.
+for(var i = 0; i<products.length; i++){
+  // "i" here is a temporary variable that refers to the index of the object we're currently on while looping through the array.
 
-var description = prompt("description");
-products.description = description;
-
-console.log(products);
+  // We reference the element of the array that we're on using brackets
+  // notation with the counter/i variable. That element is an object,
+  // so we can refer to it's attributes using dot notation.
+  console.log(products[i].name);
+  console.log(products[i].description);
+  console.log(products[i].price);
+}
