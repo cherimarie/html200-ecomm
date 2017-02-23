@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles/main.css">
 
   <!-- replace with your personal Font Awesome CDN link -->
-  <script src="https://use.fontawesome.com/???.js"></script>
+  <script src="https://use.fontawesome.com/4c99765dbe.js"></script>
 </head>
 
 <body>
@@ -25,35 +25,39 @@
       </ul>
     </nav>
 
-    <h1>Winter Wear Warehouse</h1>
+    <h1>Winter&nbsp;Wear Warehouse</h1>
   </header>
 
-  <aside>
-    <form>
-      <label>Filter By:
-        <select name="filter">
-          <option value="">Choose One</option>
-          <option value="price">Price</option>
-          <option value="name">Name</option>
-        </select>
-      </label>
+  <main>
+    <aside>
+      <form name="sortForm" onsubmit="sort();">
+        <label>Filter By:
+          <select name="filter">
+            <option value="">Choose One</option>
+            <option value="price">Price</option>
+            <option value="name">Name</option>
+          </select>
+        </label>
 
-      <input type="submit" value="Sort">
-    </form>
-  </aside>
+        <input type="submit" value="Sort">
+      </form>
+    </aside>
 
-  <section>
-    <h2>Scarves</h2>
+    <section>
+      <h2>Scarves</h2>
 
-    <div class="item-container">
-      <div class="item">
-        <!-- code template for a single item will go here -->
-        <img src="images/reversible-plaid.jpg" width="100" height="" align="right">
-        Reversible Plaid | $26.99<br />
-        "Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic."
+      <div class="item-container">
+
+        <div class="item">
+          <h3>Reversible Plaid</h3>
+          <img src="images/reversible-plaid.jpg" alt="reversible plaid scarf">
+          <p>Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
+          <p>26.99</p>
+        </div>
+
       </div>
-    </div>
-  </section>
+    </section>
+</main>
 
   <script type="text/javascript" src="js/script.js"></script>
 </body>
